@@ -1,0 +1,32 @@
+{
+    "settings": {
+        "index.number_of_replicas": 0
+    },
+    "mappings": {
+        "dynamic": "strict",
+        "properties": {
+            "id": {
+                "type": "keyword"
+            },
+            "by": {
+                "type": "keyword"
+            },
+            "author": {
+                "type": "keyword"
+            },
+            "time_ts": {
+                "type": "keyword"
+            },
+            "text": {
+                "type": "text"
+            },
+            "ranking": {
+                "type": "long"
+            },
+            "parent": {
+                "type": "long"
+            }
+        }
+    }
+}
+
