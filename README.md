@@ -1,3 +1,6 @@
+## Notes
+This has a minimal repro up to and including the data loading but no queries or anything since it doesn't seem needed to show the issue.
+
 ## Data
 
 Uncompress comments.7z under the hn_track directory.
